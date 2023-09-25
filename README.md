@@ -1,5 +1,3 @@
-<image src='assets/images/banner.gif' alt='Microsoft Teams Animted emojis' />
-
 # [Telegram](https://telegram.org/) Animated emojis
 
 All the Telegram animated emojis are available in one place and ready to use in your next project or README file.
