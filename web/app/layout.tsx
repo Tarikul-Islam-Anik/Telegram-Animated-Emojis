@@ -59,6 +59,7 @@ export default function RootLayout({
           <Toaster />
           <Footer />
         </ThemeProvider>
+        <script async src="https://cdn.splitbee.io/sb.js" />
       </body>
     </html>
   );
