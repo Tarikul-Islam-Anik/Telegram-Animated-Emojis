@@ -92,3 +92,17 @@
   }
 
 }
+
+@layer components{
+  .btn{
+    @apply flex transform items-center justify-center rounded-xl bg-blue-600 px-5 py-4 text-center text-base font-medium
+    text-white transition duration-500 ease-in-out hover:bg-blue-700 focus:outline-none focus:ring-2
+     focus:ring-blue-500 focus:ring-offset-2 lg:px-10;
+  }
+  .btn-secondary{
+    @apply flex transform items-center justify-center truncate rounded-xl  border-2
+    border-white px-5 py-3.5 text-center text-base font-medium text-blue-600 shadow-md 
+    transition duration-500 ease-in-out focus:outline-none focus:ring-2 focus:ring-slate-200 
+    focus:ring-offset-2 dark:border-slate-900 dark:bg-slate-800 dark:focus:ring-slate-800 lg:px-10;
+  }
+}
